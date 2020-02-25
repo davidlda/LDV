@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+#Arg 1: contact number, Arg 2: filname to be created
 my ($records, $filename) = @ARGV;
 
 if (not defined $records)  {$records  = 10}
